@@ -28,4 +28,59 @@ header {
 
 main {
     text-align: center;
+    position:relative;
+    top: 200px;
+    margin: 0 auto;
+}
+
+.logo_hero {
+    max-width:30%;
+    margin:0 auto;
+}
+
+.logo_hero img {
+    height:92px;
+    margin:0 auto;
+}
+
+.search_form  {
+    padding-top:20px;
+}
+.searchbar_outer {
+    max-width:484px;
+    margin:0 auto;
+    border:1px solid #c6c6c6;
+    box-shadow:0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    height:44px;
+}
+.searchbar_inner {
+    max-width:100%;
+    height:auto;
+    margin:auto;
+    padding:3px 6px 3px 3px;
+}
+.searchbar_inner input#search_input {
+    margin:0px;
+    height:34px;
+    width:100%;
+    padding:0;
+    border:none;
+}
+
+.search_form button {
+    margin-top: 30px;
+    background: #f2f2f2;
+    border:none;
+    padding:0 16px;
+    height:36px;
+    color: #757575;
+    font-size: 13px;
+    font-weight:bold;
+}
+
+.search_form button:hover {
+    color:#222;
+    border:1px solid #c6c6c6;
+    box-shadow:0 1px 1px rgba(0,0,0,0.1);
+    background-image:-webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
 }
